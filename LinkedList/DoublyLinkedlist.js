@@ -153,4 +153,4 @@ s;
 // // // Other operations;
 console.log("Linked list size:", myLinkedList.size());
 console.log("Is linked list empty?", myLinkedList.isEmpty());
-console.log("Linked list size:", myLinkedLis.);
+// console.log("Linked list size:", myLinkedLis.);
