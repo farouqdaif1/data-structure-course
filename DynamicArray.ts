@@ -1,4 +1,4 @@
-class DynamicArray<T>  {
+export class DynamicArray<T>  {
     private _array: T[]; //the internal static array and start with _ is to indicate that a variable is private
     private _size: number = 0; //length user think array is 
     private _capacity: number = 0; //actual array size
@@ -95,5 +95,3 @@ class DynamicArray<T>  {
 
     }
 }
-
-export { };

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.DynamicArray = void 0;
 class DynamicArray {
     constructor(capacity = 16) {
         this._size = 0; //length user think array is 
@@ -102,3 +103,4 @@ class DynamicArray {
         }
     }
 }
+exports.DynamicArray = DynamicArray;
